@@ -2836,7 +2836,7 @@
 		table th {
 			font-size: 0.9rem;
 			font-weight: 700;
-			padding: 0 0.75rem 0.75rem 0.75rem;
+			padding: 0.75rem 0.75rem 0.75rem 0.75rem;
 			text-align: left;
 		}
 
@@ -3006,7 +3006,7 @@
 /* Main */
 
 	#main > .inner {
-		margin: 0 auto;
+		margin: 3rem auto;
 		width: 80rem;
 		max-width: 90%;
 		margin-bottom: 2rem;
@@ -3068,7 +3068,7 @@
 		}
 
 		.wrapper > header.special {
-			padding: 4rem 2rem;
+			padding: 3rem 2rem;
 		}
 
 			@media screen and (max-width: 980px) {
@@ -3096,7 +3096,7 @@
 		}
 
 	.wrapper.style1 .content {
-		padding: 6rem;
+		padding: 1rem 10rem 4rem;
 	}
 
 		@media screen and (max-width: 1280px) {
