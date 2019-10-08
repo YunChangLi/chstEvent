@@ -1,35 +1,30 @@
-	        #wrap{
-				z-index : 100 ;
-			}
-			#outerContainer {
-				position:relative ;
-				background:#4b4d3f;
-				width:auto; 
-				height:85px;
-			}
-			.topflow{
-				position:fixed;
-				top : 0% ;
-				left: 0;
-				right: 0;
-				background:#4b4d3f;
-				width:auto; 
-				height:85px;
-			}
-			.hide{
-				visibility:hidden ;
+	        @media screen and (min-width: 560px) {
+				#wrap{
+					z-index : 100 ;
+				}
+				#outerContainer {
+					position:relative ;
+					background:#4b4d3f;
+					width:auto; 
+					height:85px;
+				}
+				#info{
+					margin-right:0 ;
+					margin-left:0 ;
+				}
 				
-			}
 
-			#menuContainer {position:relative; float:left; left:50%;}  
-			#nav ul {padding:0; margin:0; list-style:none; font: 11px arial, verdana, sans-serif; background:url(transparent.gif); position:relative; z-index:100;}
-			#nav {height:0px; float:left; padding:10px;position:relative; right:50%;}
+				#menuContainer {position:relative; float:left; left:50%;}  
+				#nav ul {padding:0; margin:0; list-style:none; font: 11px arial, verdana, sans-serif; background:url(transparent.gif); position:relative; z-index:100;}
+				#nav {height:0px; float:left; padding:10px;position:relative; right:50%;}
+				
+				#nav li {float:left;}
+				#nav li a {display:block; float:left; color:#fff; height:50px; padding:0 30px 0 10px; line-height:200%;text-decoration:none; white-space:nowrap; font-weight:bold;}
+				#nav li a br {display: block;  }
+			}
 			
-			#nav li {float:left;}
-			#nav li a {display:block; float:left; color:#fff; height:50px; padding:0 30px 0 10px; line-height:200%;text-decoration:none; white-space:nowrap; font-weight:bold;}
-			#nav li a br {display: block;  }
 			
-			@media screen and (max-width: 989px) {
+			@media screen and (max-width: 989px) {/**for less than 989px**/
 
 				#outerContainer {
 					position:relative ;
@@ -39,3 +34,37 @@
 				}
 
 			}
+			@media screen and (max-width: 560px) {/**for less than 560px**/
+
+				#wrap{
+					z-index : 100 ;
+				}
+				#outerContainer {
+					position:relative ;
+					background:#4b4d3f;
+					width:auto; 
+					height:500px;
+				}
+				#nav li a {display:block;  
+					color:#fff; 
+					height:50px; 
+					padding:10px 0 0 10px; 
+					line-height:200%;
+					text-decoration:none; 
+					white-space:nowrap; 
+					font-weight:bold;
+				}
+
+			}
+			.topflow{
+				position:fixed;
+				top : 0% ;
+				left: 0;
+				right: 0;
+				width:auto; 
+			}
+			.hide{
+				visibility:hidden ;
+				
+			}
+			
