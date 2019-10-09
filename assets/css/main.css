@@ -3112,8 +3112,10 @@
 	}
 	.wrapper.style1 .committee {
 
-		padding: 1rem 4rem 10rem;
+		margin:5rem  auto 5rem 3rem ;
+		padding: 0 0 10rem 0;
 	}
+
 
 	.wrapper.style1 .content .detail span{
 		position:relative;
