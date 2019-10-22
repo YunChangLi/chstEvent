@@ -3115,7 +3115,9 @@
 		margin:5rem  auto 5rem 3rem ;
 		padding: 0 0 10rem 0;
 	}
+	
 	@media screen and (min-width: 471px){
+		
 		.wrapper.style1 .content .detail {
 			float:right;
 			width:60%;
