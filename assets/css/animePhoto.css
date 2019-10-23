@@ -127,7 +127,7 @@
             animation-delay: 15s;
 }
 
-.slider_container:hover div {
+/*.slider_container:hover div {
     -webkit-animation-play-state: paused;
             animation-play-state: paused;
-}
+}*/
