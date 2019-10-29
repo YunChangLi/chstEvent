@@ -2637,7 +2637,7 @@
 	}
 
 	header p {
-		color: #bbb;
+		/*color: #bbb;*/
 	}
 
 /*Spotlight */
@@ -3076,13 +3076,13 @@
 		}
 
 		.wrapper > header.special {
-			padding: 3rem 2rem;
+			padding: 1rem 2rem;
 		}
 
 			@media screen and (max-width: 980px) {
 
 				.wrapper > header.special {
-					padding: 3rem 2rem;
+					padding: 1rem 2rem;
 				}
 
 			}
@@ -3103,12 +3103,31 @@
 
 		}
 
+    .wrapper.style1 .session p{
+			text-transform: uppercase;
+			text-align : center ;
+			font-weight: 300;
+			font-size: 15px;
+			letter-spacing: .25rem;
+			margin: 0;
+			padding-bottom : 2rem ;
+	}
 	.wrapper.style1 .content {
-		padding: 1rem 4rem 10rem;
+		padding: 1rem 4rem 3rem;
+	}
+	.wrapper.style1 .paper {
+		padding: 3rem 4rem 3rem;
+	}
+	.wrapper.style1 .paper p{
+			font-weight: 300;
+			font-size: 15px;
+			letter-spacing: .25rem;
+			margin: 0;
+			padding-bottom : 2rem ;
 	}
 	.wrapper.style1 table{
 
-		display:none;
+		/*display:none;*/
 	}
 	.wrapper.style1 .committee {
 
