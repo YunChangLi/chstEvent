@@ -3148,7 +3148,8 @@
 		
 		.wrapper.style1 .content .detail {
 			margin:5% auto 10% auto;
-			padding-left : 3% ; 
+			padding-left : 3% ;
+			padding-top : 3% ;
 			display:block;
 		}
 		.wrapper.style1 .subcontent .subLeftdetail {
