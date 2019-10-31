@@ -3148,7 +3148,7 @@
 		
 		.wrapper.style1 .content .detail {
 			margin:5% auto 10% auto;
-			padding-left : 30% ; 
+			padding-left : 3% ; 
 			display:block;
 		}
 		.wrapper.style1 .subcontent .subLeftdetail {
@@ -3162,15 +3162,23 @@
 			padding-left : 55% ; 
 			display:block;
 		}
+		.wrapper.style1 .content .detail img{
+
+			float:left ;
+			margin:0 auto 0 3%;
+			margin-right : 5% ;
+			width : 20%
+		}
 		.wrapper.style1 .content img{
 			width:100% ;
 			float:left ;
-			margin:0 auto 0 3%;
+
 		}
 		.wrapper.style1 .subcontent .subLeftdetail img{
 			width:100% ;
 			float:left ;
 			margin:5px 100% 30px 3%;
+
 		}
 		.wrapper.style1 .subcontent .subRightdetail img{
 			width:100% ;
@@ -3205,9 +3213,14 @@
 			margin-bottom:5%;
 			display:block;
 		}
-		.wrapper.style1 .content img{
+		.wrapper.style1 .content .detail img{
+			width:50% ;
+			margin:5px 100% 10px 1%;
+		}
+		.wrapper.style1 .content  img{
 			width:100% ;
-			margin:5px auto 10px 1%;
+			float:left ;
+
 		}
 		.wrapper.style1 .subcontent .subLeftdetail {
 
@@ -3249,6 +3262,8 @@
 		position:relative;
 		color:#000000;
 		font-size:12pt;
+
+
 	}
 	.wrapper.style1 .subcontent .subLeftdetail span{
 		position:relative;
